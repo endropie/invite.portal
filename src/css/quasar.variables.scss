@@ -22,3 +22,9 @@ $positive: #21ba45;
 $negative: #c10015;
 $info: #31ccec;
 $warning: #f2c037;
+
+:root {
+  --animate-duration: 0.8s;
+  --animate-delay: 0.5s;
+  --animate-repeat: 1;
+}

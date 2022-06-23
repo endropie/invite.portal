@@ -1,1 +1,139 @@
-// app global css in SCSS form
+@import "./quasar.fonts.scss";
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+$present: #c57a2a;
+
+.text-present {
+  color: $present;
+}
+
+.border-present {
+  border-color: $present;
+}
+
+.bg-present {
+  background-color: $present;
+}
+
+.text-present-1 {
+  color: lighten($present, 50);
+}
+
+.border-present-1 {
+  border-color: lighten($present, 50);
+}
+
+.bg-present-1 {
+  background-color: lighten($present, 50);
+}
+
+.text-present-2 {
+  color: lighten($present, 40);
+}
+
+.border-present-2 {
+  border-color: lighten($present, 40);
+}
+
+.bg-present-2 {
+  background-color: lighten($present, 40);
+}
+
+.text-present-3 {
+  color: lighten($present, 30);
+}
+
+.border-present-3 {
+  border-color: lighten($present, 30);
+}
+
+.bg-present-3 {
+  background-color: lighten($present, 30);
+}
+
+.text-present-4 {
+  color: lighten($present, 20);
+}
+
+.border-present-4 {
+  border-color: lighten($present, 20);
+}
+
+.bg-present-4 {
+  background-color: lighten($present, 20);
+}
+
+.text-present-5 {
+  color: lighten($present, 10);
+}
+
+.border-present-5 {
+  border-color: lighten($present, 10);
+}
+
+.bg-present-5 {
+  background-color: lighten($present, 10);
+}
+
+.text-present-6 {
+  color: darken($present, 5);
+}
+
+.border-present-6 {
+  border-color: darken($present, 5);
+}
+
+.bg-present-6 {
+  background-color: darken($present, 5);
+}
+
+.text-present-7 {
+  color: darken($present, 10);
+}
+
+.border-present-7 {
+  border-color: darken($present, 10);
+}
+
+.bg-present-7 {
+  background-color: darken($present, 10);
+}
+
+.text-present-8 {
+  color: darken($present, 15);
+}
+
+.border-present-8 {
+  border-color: darken($present, 15);
+}
+
+.bg-present-8 {
+  background-color: darken($present, 15);
+}
+
+.text-present-9 {
+  color: darken($present, 20);
+}
+
+.border-present-9 {
+  border-color: darken($present, 20);
+}
+
+.bg-present-9 {
+  background-color: darken($present, 20);
+}
+
+.text-present-10 {
+  color: darken($present, 25);
+}
+
+.border-present-10 {
+  border-color: darken($present, 25);
+}
+
+.bg-present-10 {
+  background-color: darken($present, 25);
+}
